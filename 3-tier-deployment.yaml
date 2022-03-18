@@ -67,7 +67,7 @@ spec:
   - env:
     - name: REDIS_HOST
       value: snappass-redis
-    image: shahidalvit/3tier-app
+    image: alvi2/3tier-app
     name: snappass
     ports:
     - containerPort: 5000
